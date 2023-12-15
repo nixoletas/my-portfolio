@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  max-width: 100%;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -24,4 +30,95 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.navlink:hover {
+  color: rgb(255, 255, 255);
+  scale: 105%;
+  transition: all 200ms;
+}
+
+.navlink::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px; /* Espessura da linha */
+  background: white; /* Cor da linha */
+  transition: width 0.3s ease-in-out; /* Animação suave */
+  margin-top: 2px; /* Espaçamento acima da linha */
+}
+
+.navlink:hover::after {
+  width: 100%;
+}
+
+
+.glow-effect {
+  box-shadow: 0 0 5px #c699ec;
+}
+
+
+body {
+  background: -webkit-gradient(radial, center center, 0, center center, 300, from(#1f0022), to(#000000));
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 1ch;
+  background-color: currentColor;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { background-color: transparent }
+  50% { background-color: currentColor; }
+}
+
+.textAnimate {
+  animation:
+    moving .2s ease-in-out,
+    cursor .8s step-end infinite alternate;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(-100);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+  
+}
+
+.floating-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Ou qualquer cor de fundo que você preferir */
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Ajuste o padding conforme necessário */
+}
+
+.floating-menu a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.floating-menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.shiny-border {
+  box-shadow: -2px 2px 4px purple;
+  transition: all 200ms;
+}
+
+.shiny-border:hover {
+  box-shadow: -2px 2px 8px purple;
 }

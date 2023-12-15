@@ -1,0 +1,20 @@
+.typing-animation {
+    font-family: 'Courier New', monospace; /* Or any monospace font */
+    white-space: pre; /* Preserves spaces and line breaks */
+}
+
+.cursor {
+    display: inline-block;
+    width: 5px;
+    height: 1.2rem;
+    background-color: white;
+    margin-left: 2px; /* Optional space after text */
+    animation: blink 1s steps(2, start) infinite;
+    margin-bottom: -0.2rem;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}

@@ -10,7 +10,11 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'conic-gradient(from 120deg at 50% 100%, var(--tw-gradient-stops))',
+      },
+      fontFamily: {
+        'afacad': ['Roboto Condensed', 'sans-serif'],
+        'sourcecode': ['Source Code Pro', 'sans-serif'],
       },
     },
   },
