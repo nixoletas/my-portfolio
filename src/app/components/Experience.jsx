@@ -13,7 +13,7 @@ const Experience = () => {
                     Systems Platoon Commander
                 </h1>
                 <span className='flex font-sourcecode my-2'>jun 2023 - moment</span>
-                <p className='text-justify text-lg'>As the Systems Platoon Commander, I worked together with the team in managing and maintaining the Brazilian Army's Command and Control systems. I also developed web applications in React.js to improve and facilitate navigation between various different systems.</p>
+                <p className='text-justify text-lg'>As the Systems Platoon Commander, I worked together with the team in managing and maintaining the Brazilian Army&apos;s Command and Control systems. I also developed web applications in React.js to improve and facilitate navigation between various different systems.</p>
                 </div>
 
                 <div className='w-1 h-24 mx-12 bg-purple-400 flex justify-center rounded-full'></div>
