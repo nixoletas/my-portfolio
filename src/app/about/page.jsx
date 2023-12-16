@@ -20,7 +20,7 @@ const page = () => {
           <div className='flex flex-col max-w-3xl text-justify gap-4'>
           <h1 className='text-4xl'>A little background</h1>
               <p className='text-xl text-white/70 font-afacad font-normal'>
-              I'm a Brazilian Army Officer at the rank of 1st Lieutenant with 
+              I&apos;m a Brazilian Army Officer at the rank of 1st Lieutenant with 
               <span className='text-violet-400 font-semibold'> five years </span>
               of experience in team leadership and people management, specialized in high-pressure situations and complex problem-solving. My journey in military service has honed my skills in 
               <span className='text-violet-400 font-semibold'> communication, leadership, and strategic management </span>
