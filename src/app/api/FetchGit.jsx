@@ -43,7 +43,7 @@ const FetchGit = () => {
                         <p className='text-purple-400 my-2'>{repo.description}</p>
                         <div className='flex w-full justify-center pt-4'>
                         {repo.topics.map((topic, index) => (
-                        <p className='flex flex-wrap border-2 bg-slate-950 text-blue-400 w-fit justify-center text-center p-2 mx-1 border-white/40 rounded-lg text-sm max-sm:text-xs'>{topic}</p>
+                        <p key={`${repo.id}-${index}`} className='flex flex-wrap border-2 bg-slate-950 text-blue-400 w-fit justify-center text-center p-2 mx-1 border-white/40 rounded-lg text-sm max-sm:text-xs'>{topic}</p>
                     ))} 
                         </div>
                         <Link href={`${repo.homepage}`} className='flex underline justify-center m-2 hover:text-white text-white/80'>{repo.homepage}</Link>
