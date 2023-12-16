@@ -25,8 +25,8 @@ const page = () => {
         <h1 className='wrapper textAnimate glow-effect border-[2px] max-w-xl rounded-lg p-3 border-violet-600'>Hello, my name is <span className='text-violet-400 font-semibold'>Nicholas! --</span> i&apos;m a Software Developer based in Brazil!</h1>
         <div className='flex flex-row justify-center text-left pt-8'>
           <div>
-            <h1 className='text-4xl text-white/90'>Nicholas Miyasato</h1>
-            <p className='text-white/90'>Digital Craftsman ( Artist / Developer / Designer )</p>
+            <h1 className='text-4xl text-white/90 max-md:text-2xl'>Nicholas Miyasato</h1>
+            <p className='text-white/90 max-md:text-base'>Digital Craftsman ( Artist / Developer / Designer )</p>
             <TypingAnimation/>
         </div>
         
