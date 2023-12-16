@@ -21,16 +21,16 @@ const page = () => {
     </div>
 
     <section className='max-w-full h-screen flex justify-center'>
-      <div className='container flex flex-col max-w-xl h-screen max-md:p-6 text-center justify-center'>
-        <h1 className='wrapper textAnimate glow-effect border-[2px] max-w-lg rounded-lg p-3 border-violet-600'>Hello, my name is <span className='text-violet-400 font-semibold'>Nicholas! --</span> i'm a Software Developer based in Brazil!</h1>
-        <div className='flex flex-row justify-start text-left pt-8'>
+      <div className='container flex flex-col max-w-lg h-screen max-md:p-6 text-center justify-center'>
+        <h1 className='wrapper textAnimate glow-effect border-[2px] max-w-xl rounded-lg p-3 border-violet-600'>Hello, my name is <span className='text-violet-400 font-semibold'>Nicholas! --</span> i'm a Software Developer based in Brazil!</h1>
+        <div className='flex flex-row justify-center text-left pt-8'>
           <div>
             <h1 className='text-4xl text-white/90'>Nicholas Miyasato</h1>
             <p className='text-white/90'>Digital Craftsman ( Artist / Developer / Designer )</p>
             <TypingAnimation/>
         </div>
         
-        <div className='flex flex-row justify-end ml-6 rounded-full glow-effect bg-white w-32 h-32'
+        <div className='mypicture flex flex-row justify-end items-end ml-6 rounded-full glow-effect bg-white w-32 h-32'
         style={{ backgroundImage: `url(${imageUrl})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         </div>
         </div>

@@ -12,12 +12,14 @@ const page = () => {
     <div className='w-full h-12'></div>
     
     <section className='w-full h-auto flex justify-center'>
+      
       <div className='container flex flex-col w-auto h-screen max-md:p-6 text-center justify-center'>
+      <h1 className='glow-effect border-[2px] rounded-lg p-3 text-2xl border-violet-600'><span className='text-violet-400 font-semibold'>ABOUT </span>ME</h1>
         <div className='flex flex-row justify-start text-left pt-8'>
           <div className='flex flex-col max-w-3xl text-justify gap-4'>
-            <h1 className='text-4xl'>About Me</h1>
+          <h1 className='text-4xl'>Background</h1>
               <p className='text-xl text-white/70 font-afacad font-normal'>
-              Brazilian Army Officer at the rank of 1st Lieutenant with 
+              I'm a Brazilian Army Officer at the rank of 1st Lieutenant with 
               <span className='text-violet-400 font-semibold'> five years </span>
               of experience in team leadership and people management, specialized in high-pressure situations and complex problem-solving. My journey in military service has honed my skills in 
               <span className='text-violet-400 font-semibold'> communication, leadership, and strategic management </span>
@@ -40,16 +42,6 @@ const page = () => {
             <p className='text-xl text-white/70 font-sourcecode text-left font-semibold'>
             <span className='text-violet-400 font-semibold'>'HTML/CSS/JS', 'React',</span> 'Node.js', 'Redis', <span className='text-violet-400 font-semibold'>'Bootstrap/Tailwind',</span> 'Vite', 'SCSS/Less', 'npm/yarn/pnpm', <span className='text-violet-400 font-semibold'>'Docker',</span> 'PWA', 'SSR', 'SPA', <span className='text-violet-400 font-semibold'>'Git/Github', </span> 'Firebase', <span className='text-violet-400 font-semibold'>'MySQL/MongoDB/ORM',</span> 'Wordpress/ Webflow', <span className='text-violet-400 font-semibold'>'Figma', 'UX/UI',</span> 'AWS', 'TypeScript', 'NestJS'</p>
         </div>
-        </div>
-        </div>
-    </section>
-    <section className='w-full h-screen flex justify-center'>
-      
-    <div className='container flex flex-col w-auto h-auto text-center justify-center'>
-          <div className='container flex flex-col max-w-3xl gap-4'>
-            <h1 className='text-4xl'>Skill Set</h1>
-            <p className='text-xl text-white/70 font-sourcecode text-left font-semibold'>
-            <span className='text-violet-400 font-semibold'>'HTML/CSS/JS', 'React',</span> 'Node.js', 'Redis', <span className='text-violet-400 font-semibold'>'Bootstrap/Tailwind',</span> 'Vite', 'SCSS/Less', 'npm/yarn/pnpm', <span className='text-violet-400 font-semibold'>'Docker',</span> 'PWA', 'SSR', 'SPA', 'Git/Github', 'Firebase', <span className='text-violet-400 font-semibold'>'MySQL/MongoDB/ORM',</span> 'Wordpress/ Webflow', <span className='text-violet-400 font-semibold'>'Figma', 'UX/UI',</span> 'AWS', 'TypeScript', 'NestJS'</p>
         </div>
         </div>
         <FloatingMenu/>
