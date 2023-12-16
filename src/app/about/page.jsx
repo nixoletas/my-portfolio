@@ -41,7 +41,7 @@ const page = () => {
           <div className='flex flex-col max-w-3xl text-justify gap-4'>
             <h1 className='text-4xl'>Skill set</h1>
             <p className='text-xl text-white/70 font-sourcecode text-left font-semibold'>
-            <span className='text-violet-400 font-semibold'>'HTML/CSS/JS', 'React',</span> 'Node.js', 'Redis', <span className='text-violet-400 font-semibold'>'Bootstrap/Tailwind',</span> 'Vite', 'SCSS/Less', 'npm/yarn/pnpm', <span className='text-violet-400 font-semibold'>'Docker',</span> 'PWA', 'SSR', 'SPA', <span className='text-violet-400 font-semibold'>'Git/Github', </span> 'Firebase', <span className='text-violet-400 font-semibold'>'MySQL/MongoDB/ORM',</span> 'Wordpress/ Webflow', <span className='text-violet-400 font-semibold'>'Figma', 'UX/UI',</span> 'AWS', 'TypeScript', 'NestJS'</p>
+            <span className='text-violet-400 font-semibold'>HTML/CSS/JS, React,</span> Node.js, Redis, <span className='text-violet-400 font-semibold'>Bootstrap/Tailwind,</span> Vite, SCSS/Less, npm/yarn/pnpm, <span className='text-violet-400 font-semibold'>Docker,</span> PWA, SSR, SPA, <span className='text-violet-400 font-semibold'>Git/Github, </span> Firebase, <span className='text-violet-400 font-semibold'>MySQL/MongoDB/ORM,</span> Wordpress/ Webflow, <span className='text-violet-400 font-semibold'>Figma, UX/UI,</span> AWS, TypeScript</p>
         </div>
         </div>
         </div>
