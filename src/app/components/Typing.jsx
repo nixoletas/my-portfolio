@@ -30,7 +30,7 @@ const TypingAnimation = () => {
     }, [text, words, wordIndex]);
 
     return (
-        <div className="font-manrope text-2xl text-purple-400 max-md:text-base font-bold typing-animation">
+        <div className="font-manrope text-2xl flex w-full text-purple-400 max-md:text-sm font-bold typing-animation">
             {text}
             <span className="cursor blink text-2xl font-bold text-white"></span>
         </div>

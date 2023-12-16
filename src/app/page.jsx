@@ -26,7 +26,7 @@ const page = () => {
         <div className='flex flex-row justify-center text-left pt-8'>
           <div>
             <h1 className='text-4xl text-white/90 max-md:text-2xl'>Nicholas Miyasato</h1>
-            <p className='text-white/90 max-md:text-base'>Digital Craftsman ( Artist / Developer / Designer )</p>
+            <p className='text-white/90 max-md:text-sm'>Digital Craftsman ( Artist / Developer / Designer )</p>
             <TypingAnimation/>
         </div>
         
