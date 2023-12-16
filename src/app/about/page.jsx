@@ -13,8 +13,7 @@ const page = () => {
     <div className='w-full h-12'></div>
     
     <section className='w-full h-auto flex justify-center'>
-      
-      <div className='container flex flex-col w-auto h-screen max-md:p-6 text-center justify-center'>
+      <div className='container flex flex-col w-auto h-auto max-md:p-6 text-center justify-center'>
       <h1 className='glow-effect border-[2px] rounded-lg p-3 text-2xl border-violet-600'><span className='text-violet-400 font-semibold'>ABOUT </span>ME</h1>
         <div className='flex flex-row justify-start text-left pt-8'>
           <div className='flex flex-col max-w-3xl text-justify gap-4'>
@@ -35,7 +34,7 @@ const page = () => {
         </div>
     </section>
 
-    <section className='w-full h-auto flex justify-center'>
+    <section className='w-full h-auto flex justify-center my-4'>
       <div className='container flex flex-col w-auto pb-32 max-md:p-6 text-center'>
         <div className='flex flex-row justify-start text-left'>
           <div className='flex flex-col max-w-3xl text-justify gap-4'>
