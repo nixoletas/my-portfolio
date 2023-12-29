@@ -10,7 +10,7 @@ const page = () => {
     <div className='flex w-full fixed bg-gradient-conic from-violet-900/40 to-violet-900/20'>
     <Navbar/>
     </div>
-    <div className='w-full h-12'></div>
+    <div className='w-full h-12 lg:h-24 md:h-20'></div>
     
     <section className='w-full h-auto flex justify-center'>
       <div className='container flex flex-col w-auto h-auto max-md:p-6 text-center justify-center'>
