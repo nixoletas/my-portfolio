@@ -35,7 +35,7 @@ const page = () => {
     </section>
 
     <section className='w-full h-auto flex justify-center my-4'>
-      <div className='container flex flex-col w-auto pb-32 max-md:p-6 text-center'>
+      <div className='container flex flex-col w-auto pb-24 pt-24 max-md:p-6 text-center'>
         <div className='flex flex-row justify-start text-left'>
           <div className='flex flex-col max-w-3xl text-justify gap-4'>
             <h1 className='text-4xl'>Skill set</h1>
