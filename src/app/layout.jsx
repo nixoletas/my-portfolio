@@ -3,6 +3,7 @@ import './globals.css'
 import { Analytics } from '@vercel/analytics/react';
 import Script from 'next/script';
 import dotenv from 'dotenv';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 dotenv.config();
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>{children}
       
       <Analytics/>
+      <SpeedInsights/>
       </body>
     </html>
   )
