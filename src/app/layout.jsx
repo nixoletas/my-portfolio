@@ -1,6 +1,8 @@
 import { Oswald } from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react';
+import Head from 'next/head';
+import Script from 'next/script';
 import dotenv from 'dotenv';
 
 dotenv.config();
