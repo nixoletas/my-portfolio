@@ -53,18 +53,6 @@ const page = () => {
             height={40} alt="email-icon">
             </Image>
           </Link>
-          <Link href="http://instagram.com/nixoletas" target='_blank'>
-            <Image className="shiny-border rounded-xl p-1 hover:scale-105 hover:-translate-y-1" src="/instagram-svg.png"
-            width={40}
-            height={40} alt="insta-icon">
-            </Image>
-          </Link>
-          <Link href="http://youtube.com/nixoletas" target='_blank'>
-            <Image className="shiny-border rounded-xl p-1 hover:scale-105 hover:-translate-y-1" src="/youtube-svg.png"
-            width={40}
-            height={40} alt="youtube-icon">
-            </Image>
-          </Link>
           <Link href="http://soundcloud.com/nixoletas" target='_blank'>
             <Image className="shiny-border rounded-xl p-1 hover:scale-105 hover:-translate-y-1" src="/soundcloud-svg.png"
             width={40}
